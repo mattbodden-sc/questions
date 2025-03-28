@@ -1,0 +1,17 @@
+// Valid code
+(let x = {y: [1, 2, 3]})
+
+// Missing closing square bracket
+(let x = {y: [1, 2, 3})
+
+// Mismatched braces
+(let x = y: [1, 2, 3]})
+
+// Nested valid braces
+function test() { if (x > 0) { return [1, 2, 3]; }}
+
+// Missing closing square bracket
+function test() { if (x > 0) { return [1, 2, 3; }}
+
+// Unmatched closing brace
+function test() { if (x > 0) { return [1, 2, 3]; }}}

@@ -1,0 +1,29 @@
+// Test Case 1: Basic Test
+[(60, 10), (100, 20), (120, 30)], 50
+
+// Test Case 2: All Items Fit
+[(10, 1), (20, 2), (30, 3)], 6
+
+// Test Case 3: Single Item Fits
+[(10, 5), (40, 4), (30, 6)], 4
+
+// Test Case 4: No Items Fit
+[(10, 15), (20, 25), (30, 35)], 10
+
+// Test Case 5: Multiple Combinations
+[(15, 1), (10, 5), (25, 3), (30, 4)], 7
+
+// Test Case 6: Large Capacity
+[(100, 20), (200, 30), (150, 10), (50, 5)], 50
+
+// Test Case 7: Edge Case - Empty Items
+[], 10
+
+// Test Case 8: Edge Case - Zero Capacity
+[(10, 5), (20, 10), (30, 15)], 0
+
+// Test Case 9: High Value, Low Weight
+[(500, 5), (200, 10), (300, 15)], 10
+
+// Test Case 10: Equal Weights, Different Values
+[(10, 5), (50, 5), (30, 5)], 10
